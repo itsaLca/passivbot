@@ -84,8 +84,8 @@ class Bybit(Bot):
                     "ticks": "/v2/public/trading-records",
                     "fills": "/v2/private/execution/list",
                     "ohlcvs": "/v2/public/kline/list",
-                    "websocket_market": "wss://streamtestnet.bybit.com/realtime",
-                    "websocket_user": "wss://streamtestnet.bybit.com/realtime",
+                    "websocket_market": "wss://stream-testnet.bybit.com/realtime",
+                    "websocket_user": "wss://stream-testnet.bybit.com/realtime",
                     "income": "/v2/private/trade/closed-pnl/list",
                     "created_at_key": "created_at",
                 }
@@ -102,8 +102,8 @@ class Bybit(Bot):
                     "ticks": "/v2/public/trading-records",
                     "fills": "/futures/private/execution/list",
                     "ohlcvs": "/v2/public/kline/list",
-                    "websocket_market": "wss://streamtestnet.bybit.com/realtime",
-                    "websocket_user": "wss://streamtestnet.bybit.com/realtime",
+                    "websocket_market": "wss://stream-testnet.bybit.com/realtime",
+                    "websocket_user": "wss://stream-testnet.bybit.com/realtime",
                     "income": "/futures/private/trade/closed-pnl/list",
                     "created_at_key": "created_at",
                 }
